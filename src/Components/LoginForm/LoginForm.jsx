@@ -20,7 +20,7 @@ const LoginForm = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "ashilthomas/Entri-news-server-frontend/users/login",
+        "https://entri-news-sever-backend.onrender.com/users/login",
         formData
       );
 

@@ -25,7 +25,7 @@ function NewBlog() {
       const token = sessionStorage.getItem('userToken')// vanna token sessionstorage store cheynnu
       if(token){
         const responce = await axios.post(
-          "ashilthomas/Entri-news-server-frontend/posts",
+          "https://entri-news-sever-backend.onrender.com/posts",
           formData,
           {
             headers: {

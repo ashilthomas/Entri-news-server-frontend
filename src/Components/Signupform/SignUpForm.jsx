@@ -20,7 +20,7 @@ const SignUpForm = () => {
     const handileSubmit= async(e)=>{
         e.preventDefault();
         try {
-        const res = await axios.post("ashilthomas/Entri-news-server-frontend/users/",formData)
+        const res = await axios.post("https://entri-news-sever-backend.onrender.com/",formData)
       navigate("/login")
         
         } catch (error) {

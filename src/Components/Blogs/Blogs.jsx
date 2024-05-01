@@ -9,7 +9,7 @@ import "./Blog.css"
     useEffect(()=>{
        const fetchData =async ()=>{
         try {
-         const posts =  await axios.get('ashilthomas/Entri-news-server-frontend/posts') 
+         const posts =  await axios.get('https://entri-news-sever-backend.onrender.com/posts') 
          setPosts(posts.data)
 
         } catch (error) {
@@ -27,7 +27,7 @@ import "./Blog.css"
             posts.map((post,index)=>(
                
                 <div> 
-                    <img key={index} className='blogImage' src={`ashilthomas/Entri-news-server-frontend/${post.image}`} alt="" />
+                    <img key={index} className='blogImage' src={`https://entri-news-sever-backend.onrender.com/${post.image}`} alt="" />
                     <p>{post.title}</p>
                     <p>{post.subtitle}</p>
                     <p>{post.desc}</p>
