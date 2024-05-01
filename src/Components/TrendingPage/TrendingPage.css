@@ -1,0 +1,69 @@
+.btn{
+
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    color:white;
+    background-color: slateblue;
+    transition: transform 0.5s ease-in 1s;
+    animation:1s ease-in .5s SlideIn;
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1rem;
+  
+  
+  }
+  .card-flag-container{
+    height: 50%;
+    align-items: center;
+  
+  }
+  .card-flag{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-info{
+    font-family: "Inter";
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+  }
+  .card-info h2{
+    margin-bottom: 0.5rem;
+  
+  }
+  .card-info p{
+    margin-bottom: 0.5rem;
+  
+  }
+  span {
+    font-weight: 300;
+  }
+  
+  .card{
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  @keyframes SlideIn{
+    0%{
+      transform:translateY(-50px);
+      opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+  
+  }
+  .animated-container {
+    position: relative;
+    animation: moveDown 1.5s ease; /* Animation lasts for 2 seconds */
+  }

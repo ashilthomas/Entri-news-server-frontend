@@ -1,0 +1,50 @@
+.articles{
+    display: flex;
+    gap: 1rem;
+    margin: 4rem 0;
+   
+  }
+  .new_article{
+    display: flex;
+    gap: 1rem;
+  
+  }
+  .new_article .contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  
+  }
+  .contant p{
+    line-height: 1.4rem;
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+  
+  }
+  .call_out p{
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 1.3rem;
+    color: rgb(73, 72, 72);
+  
+    
+  }
+  .new_article img{
+    max-width:100px;
+  }
+  .contant h2 {
+    color: hsl(233, 8%, 79%);
+    font-size: 2em;
+   
+  
+  
+  }
+  .contant h3{
+    cursor: pointer;
+  
+  }
+  .contant h3:hover{
+   color: var(--Soft-red);
+  
+  }

@@ -1,0 +1,38 @@
+.signup-container{
+    display: flex;
+    /* margin: 20px auto 0; */
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.signup-container form{
+    width: 350px;
+}
+.title-text-one{
+    text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.subtitle{
+    margin-bottom: 10px;
+  font-size: 14px;
+}
+.signup-from-controller{
+    display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin-bottom: 20px;
+}
+.signup-from-controller input{
+    height: 30px;
+}
+.signup-btn{
+    width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: tomato;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
